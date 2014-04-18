@@ -1,0 +1,11 @@
+{
+  "name": "mocha-screencast-reporter-bower-example",
+  "private": true,
+  "dependencies": {
+    "expect": "~0.3.1",
+    "mocha": "~1.18.2"
+  },
+  "ignore": [
+    "bower_components"
+  ]
+}

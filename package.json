@@ -1,0 +1,30 @@
+{
+  "name": "mocha-screencast-reporter",
+  "version": "0.1.1",
+  "description": "Mocha test reporter for the browser, optimized for screencast environments.",
+  "keywords": [
+    "mocha",
+    "reporter",
+    "html reporter",
+    "automated testing",
+    "test",
+    "screencast",
+    "saucelabs",
+    "sauce labs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/schnittstabil/mocha-screencast-reporter",
+  "author": "Michael Mayer <michael@schnittstabil.de>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/schnittstabil/mocha-screencast-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schnittstabil/mocha-screencast-reporter/issues"
+  },
+  "preferGlobal": false,
+  "main": "screencast-reporter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  }
+}

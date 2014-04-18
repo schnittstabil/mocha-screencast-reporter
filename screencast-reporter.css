@@ -1,0 +1,56 @@
+body {
+  font-family: monospace;
+  font-size: 10pt;
+}
+
+h1 {
+  font-size: 13pt;
+}
+
+h2 {
+  font-size: 11pt;
+}
+
+.progress {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 0px;
+  border: 0px solid silver;
+  text-align: center;
+}
+
+.progress-bar {
+  height: 5px;
+  float: left;
+}
+
+.progress-passes {
+  background-color: green;
+}
+
+.progress-failures {
+  background-color: red;
+}
+
+.running-tests {
+}
+
+pre {
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Mozilla, post millennium */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+.failed-tests {
+}
+
+.failed-tests-alert {
+  color: red;
+}
+
+.statistics {
+}

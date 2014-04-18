@@ -1,0 +1,28 @@
+{
+  "name": "mocha-screencast-reporter",
+  "version": "0.1.1",
+  "description": "Mocha test reporter for the browser, optimized for screencast environments.",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "mocha",
+    "reporter",
+    "html reporter",
+    "automated testing",
+    "test",
+    "screencast",
+    "saucelabs",
+    "sauce labs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/schnittstabil/mocha-screencast-reporter",
+  "authors": [
+    "Michael Mayer <michael@schnittstabil.de>"
+  ],
+  "main": "screencast-reporter.js",
+  "ignore": [
+    "bower_components"
+  ]
+}

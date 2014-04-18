@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Tests</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link rel="stylesheet" href="../screencast-reporter.css" />
+</head>
+<body>
+  <div id="mocha"></div>
+  <script type="text/javascript" src="bower_components/expect/index.js"></script>
+  <script type="text/javascript" src="../screencast-reporter.js"></script>
+  <script type="text/javascript" src="bower_components/mocha/mocha.js"></script>
+  <script>mocha.setup({ ui: 'bdd', reporter: ScreencastReporter });</script>
+  <script type="text/javascript" src="tests.js"></script>
+  <script type="text/javascript">
+    //mocha.checkLeaks();
+    var runner = mocha.run();
+
+    // ---------- optional: Expose mocha results for sauce labs. ----------
+        function exposeMochaResults(){
+          /*
+           * runner.stats.reports are already sauce labs compatible,
+           * as described at:
+           * https://saucelabs.com/docs/javascript-unit-testing-tutorial
+           */
+          window.mochaResults = runner.stats;
+        }
+        runner.on('end', exposeMochaResults);
+        // test if already ended:
+        if(runner.stats.end){
+          exposeMochaResults();
+        }
+    // --------------------------------------------------------------------
+  </script>
+</body>
+</html>
