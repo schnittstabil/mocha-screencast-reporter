@@ -1,6 +1,6 @@
 {
   "name": "mocha-screencast-reporter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Mocha test reporter for the browser, optimized for screencast environments.",
   "moduleType": [
     "amd",
@@ -23,6 +23,9 @@
   ],
   "main": "screencast-reporter.js",
   "ignore": [
-    "bower_components"
+    "bower_components",
+    ".gitignore",
+    ".npmignore",
+    "package.json"
   ]
 }
