@@ -1,6 +1,6 @@
 {
   "name": "mocha-screencast-reporter",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Mocha test reporter for the browser, optimized for screencast environments.",
   "moduleType": [
     "amd",
